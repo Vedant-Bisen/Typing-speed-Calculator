@@ -1,7 +1,6 @@
 '''This is a project file'''
 '''Project idea - Typing speed test'''
 
-from importlib.resources import path
 import random,time
 
 def remover(a):
@@ -34,7 +33,7 @@ def accurancy(string,i):
     
 
 i = []
-path1 = "C:/Users/Admin/Documents/Programing/Typing-speed-Calculator/Words.txt"
+path1 = "C:/Users/Admin/Documents/Programing/Python/Typing-speed-Calculator/Words.txt"
 f = open( path1 ,"r")
 
 while(len(i) < 3000):
